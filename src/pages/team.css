@@ -1,0 +1,110 @@
+.team {
+  padding: 30px 0;
+  position: relative;
+}
+canvas{
+  width: 100%;
+}
+.showcase-container-team {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.frist-aria-team,.second-aria-team {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    box-sizing: content-box;
+    white-space: nowrap;
+    flex-wrap: wrap;
+  }
+  
+  .showcase-card3 {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: 2px solid rgb(32, 32, 32);
+    border-radius: 20px;
+    padding: 20px 10px;
+    z-index: 5;
+    backdrop-filter: blur(4px);
+  }
+  
+  .img-frist3 img {
+    width: 100%;
+    height: fit-content;
+    transition: all 0.3s linear;
+  }
+
+  .img-frist3 img:hover{
+    transform: translateY(-1rem) scale(1.1);
+  }
+  
+  .card-wapper3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+  }
+  
+  .img-frist3 {
+    background: rgb(238, 237, 222);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 240px;
+    height: 100%;
+    border: 1px solid rgb(32, 32, 32);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .sub-card-wapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 5px; */
+  }
+  
+  .sub-card-wapper3 h3 {
+    font-size: 22px;
+    color: rgb(32, 32, 32);
+    font-weight: 500;
+  }
+  
+
+  .sub-card-wapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  
+
+  .sub-card-wapper3 h4 {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-weight: normal;
+  }
+  
+  .sub-card-wapper3 h4 > img {
+    width: 18px;
+  }
+  
+  @media(max-width:710px) {
+    .second-aria-team {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  }

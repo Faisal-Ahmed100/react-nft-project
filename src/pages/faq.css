@@ -1,0 +1,126 @@
+.faq{
+    background-color: rgb(32, 32, 32);
+    padding: 20px 0;
+}
+
+.title-wapper-faq{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-faq{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: fit-content;
+}
+
+.main-container-faq {
+    width: 100%;
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 78%;
+}
+
+.faq-box {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    width: 450px;
+}
+
+.faq-box:nth-child(3),.faq-box:nth-child(4){
+    margin: 4rem 0;
+}
+.faq-title-icon-wapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2.faq-title {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sub-box i {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+p.faq-pera {
+    color: rgb(190, 189, 189);
+    font-size: 14px;
+    margin-top: 15px;
+    display: none;
+}
+p.faq-pera2 {
+    color: rgb(190, 189, 189);
+    font-size: 14px;
+    margin-top: 15px;
+    display: block;
+}
+
+@media (min-width:1100px) and (max-width:1224px) {
+    .faq-box{
+        width: 400px;
+    }
+}
+@media (min-width:992px) and (max-width:1099px) {
+    .faq-box{
+        width: 360px;
+    }
+}
+@media (min-width:769px) and (max-width:991px) {
+    .faq-box{
+        width: 280px;
+    }
+    h2.faq-title{
+        font-size: 14px;
+    }
+}
+@media (max-width:768px) {
+    .main-container-faq{
+        height: 100vh;
+    }
+    .faq-container{
+        height: 100%;
+    }
+    .faq-box{
+        width: 100%;
+    }
+    h2.faq-title{
+        font-size: 14px;
+    }
+    .faq-box:nth-child(3),.faq-box:nth-child(4){
+        margin: 0rem 0;
+    }
+    .faq-box:nth-child(2),.faq-box:nth-child(4){
+        margin: 2rem 0;
+    }
+    .faq-box:nth-child(6){
+        margin-top: 2rem;
+    }
+}

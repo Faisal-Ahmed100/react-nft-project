@@ -1,0 +1,223 @@
+.header {
+    width: 100%;
+}
+.header2{
+    display: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-wapper .logo{
+    font-size: 5rem;
+    font-family: 'Akaya Telivigala', cursive;
+    color: rgb(32, 32, 32);
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+}
+.navbar-container ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar-container ul li a{
+    color: rgb(32, 32, 32);
+    position: relative;
+}
+.navbar-container ul li a::before{
+    position: absolute;
+    width: 0;
+    height: 2px;
+    content: "";
+    background-color:  rgb(32, 32, 32);
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-container ul li a:hover:before{
+    width: 100%;
+}
+.wallet-btn{
+    display: inline-block;
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    font-size: 0.875em;
+    padding: 0.9rem 2.3rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+.wallet-btn:hover{
+    transform: scale(0.9);
+}
+.wallet-btn a{
+    color: inherit;
+}
+.wallet-btn:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 2px solid rgb(32, 32, 32);
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    
+}
+.wallet-btn:hover::after{
+    transform: translate(-50%, -50%) scale(1);
+    padding: 0.3rem;
+}
+.navbar-container2{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+.mobile-container{
+    display: none;
+}
+.mobile-item-wapper{
+    display: none;
+}
+
+
+
+
+
+/* responsive */
+@media (max-width:1024px) {
+.header{
+    display: none;
+}
+.menu-icon{
+    display: block;
+}
+
+.mobile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+h2.mobile-logo {
+    font-size: 4rem;
+    flex: 1;
+    font-family: 'Akaya Telivigala', cursive;
+    color: rgb(32, 32, 32);
+
+}
+
+.menu-icon {
+    font-size: 30px;
+    display: flex;
+    flex: 1;
+    justify-content:center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+ul.mobile-item-wapper {
+    position: absolute;
+    bottom: 0;
+    transform: scaleY(0);
+    transition: all 0.3s ease;
+    background: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+ul.mobile-item-wapper2 {
+    position: absolute;
+    bottom: 0;
+    transform: scaleY(1);
+    transition: all 0.3s ease;
+    background: #f1f1f1e6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    gap: 30px;
+    z-index: 10;
+}
+ul.mobile-item-wapper2 li a{
+    color: rgb(32, 32, 32);
+}
+
+ul.mobile-item-wapper li {
+    list-style: none;
+}
+
+ul.mobile-item-wapper li a {
+    padding: 10px;
+    display: inline-block;
+    color: black;
+}
+ul.mobile-item-wapper2 li a:hover{
+    text-decoration: underline;
+}
+
+ul.mobile-item-wapper2 li>.wallet-btn-wapper>.wallet-btn>a{
+    color: white;
+}
+.some{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    position: relative;
+}
+.some span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #000;
+    color: white;
+    border-radius: 100%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.some img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    animation: rotation 5s infinite linear;
+}
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+  }
+.some span i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+}
+ 
+}
+

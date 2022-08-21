@@ -1,0 +1,380 @@
+
+section.roadmap {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.roadMap-container {
+    width: 100%;
+}
+
+.title-wapper{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roadmap-title{
+    font-size: 3rem;
+    color: rgb(32, 32, 32);
+    margin-bottom: 40px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(32, 32, 32);
+    width: fit-content;
+}
+
+.road-map-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.animates {
+    position: absolute;
+    top: -10px;
+    left: -28px;
+    background: rgb(32, 32, 32);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    animation: jams 1.5s linear infinite;
+}
+
+@keyframes jams {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+.ani {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+}
+
+.ani h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.ani h3 {
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: start;
+    border-left: 3px solid rgb(32, 32, 32);
+    border-bottom: 3px solid rgb(32, 32, 32);
+    border-bottom-left-radius: 10px;
+    position: relative;
+    
+}
+
+
+
+.box-1 ul {
+    padding: 20px 0px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+    width: 50%;
+}
+
+.box-1 ul li>.span-1 {
+   font-size: 2rem;
+   font-weight: 500;
+}
+.box-1 ul li>.span-2 {
+   font-size: 16px;
+   font-weight: normal;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: end;
+    border-right: 3px solid rgb(32, 32, 32);
+    border-bottom: 3px solid rgb(32, 32, 32);
+    border-bottom-right-radius: 10px;
+    position: relative;
+    
+}
+.animates2 {
+    position: absolute;
+    top: -25px;
+    right: -28px;
+    background: rgb(32, 32, 32);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    animation: jams2 1.5s linear infinite;
+}
+
+@keyframes jams2 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+.ani2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+}
+
+.ani2 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.ani2 h3 {
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+}
+
+
+
+
+
+.box-2 ul {
+    padding: 20px 50px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+    width: 50%;
+    text-align: right;
+}
+
+.box-2 ul li>.span-1 {
+   font-size: 2rem;
+   font-weight: 500;
+}
+.box-2 ul li>.span-2 {
+   font-size: 16px;
+   font-weight: normal;
+}
+
+
+.box-3 {
+    display: flex;
+    justify-content: start;
+    border-left: 3px solid rgb(32, 32, 32);
+    border-bottom: 3px solid rgb(32, 32, 32);
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+.animates3 {
+    position: absolute;
+    top: -25px;
+    left: -28px;
+    background: rgb(32, 32, 32);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    animation: jams3 1.5s linear infinite;
+}
+
+@keyframes jams3 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+.ani3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+}
+
+.ani3 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.ani3 h3 {
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+}
+
+
+
+.box-3 ul {
+    padding: 20px 0px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 600;
+}
+
+
+
+.box-3 {
+    display: flex;
+    justify-content: start;
+    border-left: 3px solid rgb(32, 32, 32);
+    border-bottom: 3px solid rgb(32, 32, 32);
+    border-bottom-left-radius: 10px;
+    position: relative;
+    
+}
+
+
+
+.box-3 ul {
+    padding: 20px 0px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+    width: 50%;
+}
+
+.box-3 ul li>.span-1 {
+   font-size: 2rem;
+   font-weight: 500;
+}
+.box-3 ul li>.span-2 {
+   font-size: 16px;
+   font-weight: normal;
+}
+
+.box-4 {
+    display: flex;
+    justify-content: end;
+    border-right: 3px solid rgb(32, 32, 32);
+    border-bottom: 3px solid rgb(32, 32, 32);
+    border-bottom-right-radius: 10px;
+    position: relative;
+    
+}
+
+.box-4 ul {
+    padding: 20px 50px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+    width: 50%;
+    text-align: right;
+}
+
+.box-4 ul li>.span-1 {
+   font-size: 2rem;
+   font-weight: 500;
+}
+.box-4 ul li>.span-2 {
+   font-size: 16px;
+   font-weight: normal;
+}
+.box-5 {
+    display: flex;
+    justify-content: start;
+    border-left: 3px solid rgb(32, 32, 32);
+    border-bottom: 3px solid rgb(32, 32, 32);
+    border-bottom-left-radius: 10px;
+    position: relative;
+    
+}
+
+.box-5 ul {
+    padding: 20px 0px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+    width: 50%;
+}
+
+.box-5 ul li>.span-1 {
+   font-size: 2rem;
+   font-weight: 500;
+}
+.box-5 ul li>.span-2 {
+   font-size: 16px;
+   font-weight: normal;
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .box-1 ul,.box-3 ul,.box-5 ul {
+        width: 80%;
+        padding: 20px 0px 20px 20px;
+    }
+    
+    .box-1 ul li,.box-3 ul li,.box-5 ul li>.span-1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .box-2 ul,.box-4 ul {
+        width: 80%;
+        padding: 20px 20px 20px 0px;
+    }
+    
+    .box-2 ul li,.box-4 ul li>.span-1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+
+@media (max-width:768px) {
+    .box-1 ul,.box-3 ul,.box-5 ul {
+        width: 100%;
+        padding: 20px 0px 20px 20px;
+    }
+    
+    
+    .box-2 ul,.box-4 ul {
+        width: 100%;
+        padding: 20px 20px 20px 0px;
+    }
+    
+   
+}

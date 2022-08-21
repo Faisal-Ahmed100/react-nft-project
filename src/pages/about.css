@@ -1,0 +1,241 @@
+.about-aria{
+    background-color: rgb(32, 32, 32);
+}
+.about-wapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    gap: 140px;
+}
+.main-carosel{
+    width: 25vw;
+    height: 70vh;
+    
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 237, 222);
+    border-radius: 20px;
+}
+.swiper-button-next{
+    color: #000;
+    background-image: url(../assets/Nfts/Arrow.svg);
+    width: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 60%;
+    right: 0;
+}
+.swiper-button-next::after{
+    display: none;
+}
+.swiper-button-prev{
+    color: #000;
+    background-image: url(../assets/Nfts/Arrow.svg);
+    width: 4rem;
+    transform: rotate(180deg);
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 60%;
+    left: 0;
+}
+.swiper-button-prev::after{
+    display: none;
+}
+
+.main-about-right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-about-right-side h2 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 65px;
+    color: white;
+}
+
+.main-about-right-side h3 {
+    font-size: 1.3rem;
+    padding: 20px 0;
+    color: #e1e1e1;
+}
+
+.main-about-right-side p {
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+.about-btn-wapper {
+    margin-top: 25px;
+}
+
+
+.about-btn{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 32, 32);
+    outline: none;
+    border: none;
+    font-size: 0.875em;
+    padding: 0.9rem 2.3rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+.about-btn:hover{
+    transform: scale(0.9);
+}
+.about-btn a{
+    color: inherit;
+}
+.about-btn::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+}
+.about-btn:hover::after{
+    transform: translate(-50%, -50%) scale(1);
+    padding: 0.3rem;
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .about-wapper {
+        gap: 100px;
+    }
+    
+    .main-about-right-side h2 {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+    
+    .main-about-right-side h3 {
+        font-size: 1rem;
+        padding: 15px 0;
+    }
+    
+    .main-about-right-side p {
+        font-size: 16px;
+        font-weight: 500;
+    }   
+}
+
+@media (min-width:769px) and (max-width:991px) {
+ 
+    .about-wapper {
+        gap: 80px;
+    }
+    .main-carosel{
+        width: 30vw;
+    }
+    .main-about-right-side h2 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    
+    .main-about-right-side h3 {
+        font-size: 1rem;
+        padding: 15px 0;
+    }
+    
+    .main-about-right-side p {
+        font-size: 16px;
+        font-weight: 500;
+    }    
+}
+
+@media (min-width:581px) and (max-width:768px) {
+    section#about{
+        margin-top: 8rem !important;
+    }
+    .about-wapper {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    section#about {
+        padding: 40px 0;
+        margin-top: 10rem;
+    }
+    
+    .main-carosel {
+        width: 40vw;
+        height: 50vh;
+    }
+    
+
+
+    .swiper-slide img {
+        width: 100%;
+    }
+    
+    .main-about-right-side {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .main-about-right-side h2 {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }  
+}
+
+@media (max-width:580px) {
+   
+    .about-wapper {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    section#about {
+        padding: 40px 0;
+    }
+    
+    .main-carosel {
+        width: 60vw;
+        height: 45vh;
+    }
+    
+
+
+    .swiper-slide img {
+        width: 100%;
+    }
+    
+    .main-about-right-side {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .main-about-right-side h2 {
+        font-size: 2.5rem;
+        line-height: 50px;
+    } 
+}
