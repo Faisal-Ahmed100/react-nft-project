@@ -60,9 +60,9 @@
     font-size: 0.875em;
     padding: 0.9rem 2.3rem;
     border-radius: 50px;
-    cursor: pointer;
     transition: all 0.2s ease;
     position: relative;
+    cursor: url('../../assets/hand-cusor.png'), auto;
 }
 .main-btn:hover{
     transform: scale(0.9);

@@ -1,3 +1,4 @@
+import TopBtn from "./components/TopBtn/TopBtn";
 import About from "./pages/About";
 import Faq from "./pages/Faq";
 import Footer from "./pages/Footer";
@@ -19,6 +20,7 @@ function App() {
      <Team />
      <Faq />
      <Footer />
+     <TopBtn />
     </>
   );
 }

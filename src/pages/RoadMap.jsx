@@ -3,7 +3,7 @@ import './roadMap.css';
 
 const RoadMap = () => {
   return (
-    <section className='roadmap'>
+    <section className='roadmap' id='roadmap'>
       <div className="container">
         <div className="roadMap-container">
           <div className="title-wapper">

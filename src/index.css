@@ -5,12 +5,25 @@
   font-family: 'Sora', sans-serif;
  
 }
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  
+  border-radius: 5px;
+  background-color: #8324FF;
+}
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: rgb(255, 255, 255);
+  cursor: url('./assets/cusor.png'), auto;
 }
 
 a{
   text-decoration: none;
+  cursor: url('./assets/hand-cusor.png'),auto;
 }
 li{
   list-style: none;

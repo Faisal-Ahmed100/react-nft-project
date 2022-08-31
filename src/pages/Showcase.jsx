@@ -50,7 +50,7 @@ const Showcase = () => {
   const rowRef1=useRef(null);
   const rowRef2=useRef(null);
   return (
-    <section className="showcase">
+    <section className="showcase" id="showcase">
       <div className="showcase-container">
         <div className="frist-aria" ref={rowRef1}>
           <NftItem Img={Img1} Number={888} price={1.2} passRef={rowRef1}/>

@@ -1,0 +1,33 @@
+.topBtn-wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.topBtn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    border:1px solid rgb(224, 224, 224);
+    cursor: url('../../assets/hand-cusor.png'), auto !important; 
+}
+
+.topBtn i {
+    color: #242424;
+    font-size: 20px;
+}
+@media (max-width:768px) {
+    .topBtn{
+        width: 45px;
+        height: 45px;
+    }
+
+    .topBtn i{
+        font-size: 18px;
+    }
+}

@@ -50,7 +50,7 @@ return()=>{
 }
   },[])
   return (
-    <section className='faq' ref={ref}>
+    <section className='faq' id='faq' ref={ref}>
         <div className="container">
         <div className="title-wapper-faq">
           <h2 className="title-faq">FAQ</h2>

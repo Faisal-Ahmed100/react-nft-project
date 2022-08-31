@@ -14,7 +14,7 @@ import ConfettiComponent from "../components/confetti/Confetti";
 const NftItem = ({ Img, text, subText }) => {
   return (
     <>
-      <div className="showcase-card3">
+      <section className="showcase-card3" id="team">
         <div className="img-frist3">
           <img src={Img} alt="showcase-img" />
         </div>
@@ -24,7 +24,7 @@ const NftItem = ({ Img, text, subText }) => {
             <h4>{subText}</h4>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

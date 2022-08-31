@@ -60,7 +60,7 @@ h2.footer-text {
     font-size: 1.25em;
     padding: 0.9rem 2.3rem;
     border-radius: 50px;
-    cursor: pointer;
+    cursor: url('../assets/hand-cusor.png'), auto !important; 
     transition: all 0.2s ease;
     position: relative;
     font-weight: 500;
@@ -178,23 +178,89 @@ width: 100%;
 
 /* responsive */
 
-/* @media (min-width:1100px) and (max-width:1361px) {
+@media (min-width:1100px) and (max-width:1361px) {
     .footer-second-aria img:last-child {
         display: none;
     }
     h2.footer-text{
         width: 55%;
     }
-   
+    .footer-second-aria img{
+        width: 200px;
+    }
 }
+
 @media (min-width:992px) and (max-width:1099px) {
-    .footer-second-aria img {
-        width: 160px;
+    .footer-second-aria img:nth-child(5) {
+        display: none;
     }
     h2.footer-text{
-        width: 65%;
+        width: 55%;
+    }
+    .footer-second-aria img{
+        width: 190px;
+    }
+}
+@media (min-width:769px) and (max-width:991px) {
+    .footer-second-aria>img:nth-child(4),.footer-second-aria>img:nth-child(3) {
+        display: none;
+    }
+    h2.footer-text{
+        width: 55%;
+        font-size: 3rem;
+    }
+    .footer-second-aria img{
+        width: 160px;
+    }
+}
+@media (max-width:768px) {
+    .footer-second-aria>img:nth-child(4),.footer-second-aria>img:nth-child(3),.footer-second-aria>img:nth-child(2) {
+        display: none;
+    }
+    h2.footer-text{
+        width: 55%;
+        font-size: 2rem;
+    }
+    .footer-second-aria img{
+        width: 160px;
+    }
+    .footer-btn{
+        padding: 0.6rem 2rem;
     }
     .footer-container{
-        height: 55%;
+        height: 52%;
     }
-} */
+    .footer-reserved-wrapper{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (max-width:499px) {
+    .footer-second-aria>img:nth-child(2),.footer-second-aria>img:nth-child(6),.footer-second-aria>img:nth-child(5) {
+        display: none;
+    }
+    .footer-second-aria img{
+        width: 200px;
+    }
+    .sub-footer-wapper{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    h2.footer-text{
+        width: 85%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-last-container{
+        padding-top: 2rem;
+        flex-direction: column;
+    }
+    .footer-last-item {
+        display: none;
+    }
+}
