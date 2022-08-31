@@ -117,6 +117,7 @@
     display: block;
 }
 
+
 .mobile-container {
     display: flex;
     justify-content: space-between;
@@ -139,7 +140,15 @@ h2.mobile-logo>a {
     justify-content:end;
     cursor: pointer;
     transition: all 0.3s ease;
+    position: relative;
 }
+
+.menu-icon svg{
+    position: absolute;
+    top: -15px;
+}
+
+
 
 ul.mobile-item-wapper {
     position: absolute;
@@ -230,6 +239,13 @@ ul.mobile-item-wapper2 li>.wallet-btn-wapper>.wallet-btn>a{
     width: 40px;
     height: 40px;
     font-size: 14px;
+}
+
+.menu-icon{
+    position: relative !important;
+}
+.menu-icon svg{
+    position: absolute !important;
 }
  
 }

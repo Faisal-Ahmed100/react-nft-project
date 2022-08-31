@@ -76,12 +76,12 @@ const Header = () => {
         
         <h2 className="mobile-logo"><a href="#">F.</a></h2>
         {menu ? (
-          <div className="menu-icon" onClick={handleClick}>
-            <CgClose />
+          <div className="menu-icon" >
+            <CgClose onClick={handleClick}/>
           </div>
         ) : (
-          <div className="menu-icon" onClick={handleClick}>
-            <CgMenu />
+          <div className="menu-icon" >
+            <CgMenu onClick={handleClick}/>
           </div>
         )}
 
