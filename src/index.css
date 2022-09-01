@@ -11,7 +11,7 @@
 ::-webkit-scrollbar-thumb{
   
   border-radius: 5px;
-  background-color: #8324FF;
+  background-color: #f1b93f;
 }
 html{
   scroll-behavior: smooth;
@@ -19,6 +19,7 @@ html{
 body{
   background-color: rgb(255, 255, 255);
   cursor: url('./assets/cusor.png'), auto;
+  overflow-x: hidden;
 }
 
 a{
